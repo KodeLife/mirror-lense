@@ -1,5 +1,17 @@
-public light {
+public Light {
   public static void main(String [] args) {
+    public int[][] slope;
+    public int[][] start;
+    public int[][] end1;
+    public int[][] end2;
+    
+    public Light(int slope, int start, int end1, int end2) {
+    this.slope = slope;
+    this.start = start;
+    this.end1 = end1;
+    this.end2 = end2;
+    }
+    
     
   }
 }
